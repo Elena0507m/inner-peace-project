@@ -1,0 +1,48 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, rgb(241, 229, 172) 0%, #4a90e2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0px;
+            color: #333;
+        }
+
+        .kartica {
+            text-align: center;
+            background: rgb(255, 255, 255);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 400px;
+            height: 400px;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #8fb6d9;
+            margin-top: 20px;
+        }
+
+        h2 { margin: 10px 0 5px 0; font-size: 22px; }
+        p { margin: 5px 0 20px 0; color: #666; }
+
+        .dugme {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #8fb6d9;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .dugme:hover {
+            background-color: #7aa5cc;
+        }
